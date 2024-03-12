@@ -1,7 +1,17 @@
 @import "./bootstrap.min.css";
 
+
+
+ 
+
+
 * {
   background-color: #fefaf6;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
 }
 
 header {
@@ -97,4 +107,67 @@ color: rgba(36, 20, 0, 1);
 
 #sliders {
   padding-top: 50px;
+}
+
+#sliders ul{
+width: 224px;
+height: 382px;
+padding: 20px;
+box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+cursor: pointer;
+}
+
+#sliders h5 {
+  font-family: Montserrat;
+font-size: 18px;
+font-weight: 700;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(36, 20, 0, 1);
+}
+
+#sliders h6 {
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(36, 20, 0, 1);
+
+}
+
+#sliders p{
+font-family: Montserrat;
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+#sliders button {
+  background-color: rgba(225, 106, 0, 1);
+  color: #fff;
+  outline: none;
+  border: none;
+  width: 103px;
+  height: 35px;
+  border-radius: 3px;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+ }
+
+ #sliders h2 {
+font-family: Montserrat;
+font-size: 25px;
+font-weight: 900;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
 }
