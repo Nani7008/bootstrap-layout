@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap layout</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav
+          class="d-flex align-items-center justify-content-center justify-content-md-between"
+        >
+          <ul
+            class="d-none d-md-flex list-unstyled align-items-center gap-5 mb-0"
+          >
+            <li>
+              <a href="#" class="text-decoration-none"
+                ><img src="./assets/images/logo.png" alt="logo"
+              /></a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Акции</a>
+            </li>
+
+            <li>
+              <a href="#" class="text-decoration-none">Каталлог</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Доставка</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">О магазине</a>
+            </li>
+            <li>
+              <a href="#" class="text-decoration-none">Блог</a>
+            </li>
+          </ul>
+          <label for="search">
+            <img src="./assets/icons/search.svg" alt="search" />
+            <input type="search" placeholder="Поиск" />
+          </label>
+          <ul class="d-none d-md-flex list-unstyled gap-3 mb-0 al">
+            <li>
+              <a href="#"> <img src="./assets/icons/Group.png" alt="love" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/icons/basket.png" alt="basket"
+              /></a>
+            </li>
+            <li>
+              <p>2 228 грн.</p>
+            </li>
+            <li>
+              <img src="./assets/icons/Vector1.png" alt="down" />
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="intro">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div>
+              <h3>Киниги от А до Я</h3>
+              <p>
+                В нашем магазине можно найти книгу на любой вкус. <br />
+                Большой ассортимент. Приятные цены. Интересные <br />
+                сюжеты.
+              </p>
+              <button type="button" class="btn btn-lg">
+                Перейти в каталог
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div>
+              <img src="./assets/images/Слайдер.png" alt="slider" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="menu">
+      <div class="container">
+        <div class="row align-items-center" class="menu__list">
+          <div class="col-lg-4">
+            <div>
+              <h2>Горячие поступления</h2>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div>
+              <ul
+                class="d-none d-md-flex list-unstyled align-items-center gap-5 mb-0"
+              >
+                <li>
+                  <a href="#" class="text-decoration-none">Фантастика</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Саморазвитие</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Детективы</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Детские</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Аудиокниги</a>
+                </li>
+                <li>
+                  <a href="#" class="text-decoration-none">Другие</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="sliders">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 mb-2">
+            <div class="card">
+              
+                
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-2">
+            <div class="card">card 2</div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 mb-2">
+            <div class="card">card 3</div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 d-none d-lg-block">
+            <div class="card">card 4</div>
+          </div>
+          
+          <div class="col-lg-3 col-md-4 mb-2">
+            <div class="card">card 3</div>
+          </div>
+
+          <div class="col-12 pt-3">
+            <p class="p-5 bg-danger">banner</p>
+          </div>
+         
+         
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
