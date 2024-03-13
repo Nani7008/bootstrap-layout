@@ -13,17 +13,13 @@
   <body>
     <header>
       <div class="container">
-        <nav
-          class="d-flex align-items-center justify-content-center justify-content-md-between"
-        >
+        <nav class="d-flex align-items-center justify-content-center">
+          <a href="#" class="text-decoration-none"
+            ><img src="./assets/images/logo.png" alt="logo"
+          /></a>
           <ul
-            class="d-none d-md-flex list-unstyled align-items-center gap-5 mb-0"
+            class="d-none d-lg-flex list-unstyled align-items-center gap-5 mb-0"
           >
-            <li>
-              <a href="#" class="text-decoration-none"
-                ><img src="./assets/images/logo.png" alt="logo"
-              /></a>
-            </li>
             <li>
               <a href="#" class="text-decoration-none">Акции</a>
             </li>
@@ -41,7 +37,7 @@
               <a href="#" class="text-decoration-none">Блог</a>
             </li>
           </ul>
-          <label for="search">
+          <label for="search" class="d-none d-md-flex">
             <img src="./assets/icons/search.svg" alt="search" />
             <input type="search" placeholder="Поиск" />
           </label>
@@ -61,6 +57,12 @@
               <img src="./assets/icons/Vector1.png" alt="down" />
             </li>
           </ul>
+          <img
+            src="./assets/icons/menu.png"
+            alt=""
+            class="d-none"
+            class="menu"
+          />
         </nav>
       </div>
     </header>
@@ -69,11 +71,9 @@
         <div class="row align-items-center">
           <div class="col-lg-6">
             <div>
-              <h3>Киниги от А до Я</h3>
+              <h3>Книги от А до Я</h3>
               <p>
-                В нашем магазине можно найти книгу на любой вкус. <br />
-                Большой ассортимент. Приятные цены. Интересные <br />
-                сюжеты.
+                В нашем магазине можно найти книгу на любой вкус. Большой ассортимент. Приятные цены. Интересные сюжеты.
               </p>
               <button type="button" class="btn btn-lg">
                 Перейти в каталог
@@ -81,8 +81,8 @@
             </div>
           </div>
           <div class="col-lg-6">
-            <div>
-              <img src="./assets/images/Слайдер.png" alt="slider" />
+            <div class="text-center">
+              <img src="./assets/images/Слайдер.png" alt="slider" class="img-fluid" />
             </div>
           </div>
         </div>
@@ -90,17 +90,15 @@
     </section>
     <section id="menu">
       <div class="container">
-        <div class="row align-items-center" class="menu__list">
-          <div class="col-lg-4">
+        <div class="row align-items-center">
+          <div class="col-xl-4">
             <div>
               <h2>Горячие поступления</h2>
             </div>
           </div>
-          <div class="col-lg-8">
+          <div class="col-xl-8">
             <div>
-              <ul
-                class="d-none d-md-flex list-unstyled align-items-center gap-5 mb-0"
-              >
+              <ul class="list-unstyled d-flex flex-wrap gap-3 mb-0">
                 <li>
                   <a href="#" class="text-decoration-none">Фантастика</a>
                 </li>
@@ -125,151 +123,149 @@
         </div>
       </div>
     </section>
-    <section id="sliders">
-      <div class="container">
-        <div class="row d-flex justify-content-between">
-          <div class="col-lg-2">
-            <ul
-              class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
-              class="card"
-            >
-              <li>
-                <img src="./assets/images/book1.png" alt="book" />
-              </li>
-              <li>
-                <h5>300 грн.</h5>
-              </li>
-              <li>
-                <h6 class="mb-0">Порядок в Хаосе</h6>
-              </li>
-              <li>
-                <p>Константин Коптелов</p>
-              </li>
-              <li
-                class="d-flex align-items-center justify-content-between gap-1"
+      <section id="sliders">
+        <div class="container">
+          <div class="row d-flex justify-content-between">
+            <div class="col-lg-2">
+              <ul
+                class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
+                class="card"
               >
-                <button type="button">В корзину</button>
-                <img src="./assets/icons/akar-icons_heart.png" alt="" />
-              </li>
-            </ul>
-          </div>
+                <li>
+                  <img src="./assets/images/book1.png" alt="book" />
+                </li>
+                <li>
+                  <h5>300 грн.</h5>
+                </li>
+                <li>
+                  <h6 class="mb-0">Порядок в Хаосе</h6>
+                </li>
+                <li>
+                  <p>Константин Коптелов</p>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-between gap-1"
+                >
+                  <button type="button">В корзину</button>
+                  <img src="./assets/icons/akar-icons_heart.png" alt="" />
+                </li>
+              </ul>
+            </div>
 
-          <div class="col-lg-2">
-            <ul
-              class="d-flex flex-column list-unstyled align-items-center  bg-white"
-              class="card"
-            >
-              <li>
-                <img src="./assets/images/book2.png" alt="book" />
-              </li>
-              <li>
-                <h5>225 грн.</h5>
-              </li>
-              <li>
-                <h6 class="mb-0">Смарагдова книга</h6>
-              </li>
-              <li>
-                <p>Керстин Гир</p>
-              </li>
-              <li
-                class="d-flex align-items-center justify-content-between gap-1"
+            <div class="col-lg-2">
+              <ul
+                class="d-flex flex-column list-unstyled align-items-center bg-white"
+                class="card"
               >
-                <button type="button">В корзину</button>
-                <img src="./assets/icons/akar-icons_heart.png" alt="" />
-              </li>
-            </ul>
-          </div>
+                <li>
+                  <img src="./assets/images/book2.png" alt="book" />
+                </li>
+                <li>
+                  <h5>225 грн.</h5>
+                </li>
+                <li>
+                  <h6 class="mb-0">Смарагдова книга</h6>
+                </li>
+                <li>
+                  <p>Керстин Гир</p>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-between gap-1"
+                >
+                  <button type="button">В корзину</button>
+                  <img src="./assets/icons/akar-icons_heart.png" alt="" />
+                </li>
+              </ul>
+            </div>
 
-          <div class="col-lg-2">
-            <ul
-              class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
-              class="card"
-            >
-              <li>
-                <img src="./assets/images/book3.png" alt="book" />
-              </li>
-              <li>
-                <h5>86 грн.</h5>
-              </li>
-              <li>
-                <h6 class="mb-0">Зося з вулиці Котячої</h6>
-              </li>
-              <li>
-                <p>Агнешка Тишка</p>
-              </li>
-              <li
-                class="d-flex align-items-center justify-content-between gap-1"
+            <div class="col-lg-2">
+              <ul
+                class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
+                class="card"
               >
-                <button type="button">В корзину</button>
-                <img src="./assets/icons/akar-icons_heart.png" alt="" />
-              </li>
-            </ul>
-          </div>
+                <li>
+                  <img src="./assets/images/book3.png" alt="book" />
+                </li>
+                <li>
+                  <h5>86 грн.</h5>
+                </li>
+                <li>
+                  <h6 class="mb-0">Зося з вулиці Котячої</h6>
+                </li>
+                <li>
+                  <p>Агнешка Тишка</p>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-between gap-1"
+                >
+                  <button type="button">В корзину</button>
+                  <img src="./assets/icons/akar-icons_heart.png" alt="" />
+                </li>
+              </ul>
+            </div>
 
-          <div class="col-lg-2">
-            <ul
-              class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
-              class="card"
-            >
-              <li>
-                <img src="./assets/images/book4.png" alt="book" />
-              </li>
-              <li>
-                <h5>214 грн.</h5>
-              </li>
-              <li>
-                <h6 class="mb-0">Мотиватор</h6>
-              </li>
-              <li>
-                <p>Наталія Зотова</p>
-              </li>
-              <li
-                class="d-flex align-items-center justify-content-between gap-1"
+            <div class="col-lg-2">
+              <ul
+                class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
+                class="card"
               >
-                <button type="button">В корзину</button>
-                <img src="./assets/icons/akar-icons_heart.png" alt="" />
-              </li>
-            </ul>
-          </div>
+                <li>
+                  <img src="./assets/images/book4.png" alt="book" />
+                </li>
+                <li>
+                  <h5>214 грн.</h5>
+                </li>
+                <li>
+                  <h6 class="mb-0">Мотиватор</h6>
+                </li>
+                <li>
+                  <p>Наталія Зотова</p>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-between gap-1"
+                >
+                  <button type="button">В корзину</button>
+                  <img src="./assets/icons/akar-icons_heart.png" alt="" />
+                </li>
+              </ul>
+            </div>
 
-          <div class="col-lg-2">
-            <ul
-              class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
-              class="card"
-            >
-              <li>
-                <img src="./assets/images/book5.png" alt="book" height="190" />
-              </li>
-              <li>
-                <h5>778 грн.</h5>
-              </li>
-              <li>
-                <h6 class="mb-0">Без маски</h6>
-              </li>
-              <li>
-                <p>Михаил Бурняшев</p>
-              </li>
-              <li
-                class="d-flex align-items-center justify-content-between gap-1"
+            <div class="col-lg-2">
+              <ul
+                class="d-flex flex-column list-unstyled align-items-center mb-0 bg-white"
+                class="card"
               >
-                <button type="button">В корзину</button>
-                <img src="./assets/icons/akar-icons_heart.png" alt="book" />
-              </li>
-            </ul>
-          </div>
-          <div class="col-12 d-flex justify-content-center mt-5">
-            <img src="./assets/icons/horizontal.png" alt="horizontal">
+                <li>
+                  <img src="./assets/images/book5.png" alt="book" height="190" />
+                </li>
+                <li>
+                  <h5>778 грн.</h5>
+                </li>
+                <li>
+                  <h6 class="mb-0">Без маски</h6>
+                </li>
+                <li>
+                  <p>Михаил Бурняшев</p>
+                </li>
+                <li
+                  class="d-flex align-items-center justify-content-between gap-1"
+                >
+                  <button type="button">В корзину</button>
+                  <img src="./assets/icons/akar-icons_heart.png" alt="book" />
+                </li>
+              </ul>
+            </div>
+            <div class="col-12 d-flex justify-content-center mt-5">
+              <img src="./assets/icons/horizontal.png" alt="horizontal" />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
     <section id="sliders" class="pt-5">
       <div class="container">
         <div class="row d-flex justify-content-between">
           <div class="col-12 d-flex justify-content-center mt-5">
-            <h2 class="mb-5">
-              Распродажа
-            </h2>
+            <h2 class="mb-5">Распродажа</h2>
           </div>
           <div class="col-lg-2">
             <ul
@@ -299,7 +295,7 @@
 
           <div class="col-lg-2">
             <ul
-              class="d-flex flex-column list-unstyled align-items-center  bg-white"
+              class="d-flex flex-column list-unstyled align-items-center bg-white"
               class="card"
             >
               <li>
@@ -401,10 +397,177 @@
             </ul>
           </div>
           <div class="col-12 d-flex justify-content-center mt-5">
-            <img src="./assets/icons/lefthorizontal.png" alt="horizontal">
+            <img src="./assets/icons/lefthorizontal.png" alt="horizontal" />
           </div>
         </div>
       </div>
     </section>
+      <section id="catalog">
+        <div class="container">
+          <div class="row" style="width: 798px; margin-left: 237px">
+            <div class="col-12 d-flex justify-content-center pt-5">
+              <h2>Каталог</h2>
+            </div>
+            <div class="col-4 d-flex justify-content-center mt-5">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Книги</a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center mt-5">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Электронные книги</a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center p mt-5">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Аудиокниги</a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center p mt-4">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Игрушки, творчество</a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center p mt-4">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Книжные аксессуарые</a
+              >
+            </div>
+            <div class="col-4 d-flex justify-content-center p mt-4">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Блокноты</a
+              >
+            </div>
+
+            <div class="col-4 d-flex justify-content-center p mt-4">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Настольные игрые</a
+              >
+            </div>
+
+            <div class="col-4 d-flex justify-content-center p mt-4">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Подарки</a
+              >
+            </div>
+
+            <div class="col-4 d-flex justify-content-center p mt-4">
+              <a
+                href="#"
+                class="text-decoration-none d-flex align-items-center justify-content-center"
+                >Акции</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    <section id="about" class="pt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h2>О магазине</h2>
+          </div>
+
+          <div class="col-3 d-flex flex-row align-items-center gap-1">
+            <h3>35</h3>
+            <p>Филиалов по всей стране</p>
+          </div>
+          <div class="col-3 d-flex flex-row align-items-center gap-1">
+            <h3>898</h3>
+            <p>Филиалов по всей стране</p>
+          </div>
+          <div class="col-3 d-flex flex-row align-items-center gap-1">
+            <h3>869</h3>
+            <p>Филиалов по всей стране</p>
+          </div>
+          <div class="col-3 d-flex flex-row align-items-center gap-1">
+            <h3>72</h3>
+            <p>Филиалов по всей стране</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="delivery" class="pt-5">
+      <div class="container">
+        <div class="wrapper">
+          <h2>Доставка</h2>
+          <p>
+            Работаем без праздников и выходных! Жители Киева могут получить
+            заказ уже в день его оформления. Клиенты из других городов Украины
+            могут получить заказ в течение 1-5 дней в <br />
+            зависимости от местонахождения населенного пункта и выбранного
+            способа доставки. Заказы на сумму свыше 1000 грн доставляются
+            бесплатно*. Доступные способы, точные сроки и <br />
+            стоимость доставки Вы можете увидеть во время оформления заказа в
+            корзине заказа, после выбора города доставки.
+          </p>
+          <a href="#" class="text-decoration-none">Подробнее</a>
+        </div>
+      </div>
+    </section>
+    <section id="social">
+      <div class="container">
+        <div class="wrapper">
+          <h2>Следите за нами в социальных сетях</h2>
+          <img src="./assets/images/social.png" alt="social" />
+        </div>
+      </div>
+    </section>
+    <footer class="pt-5 d-flex justify-content-between align-items-center pt-5">
+      <div class="container">
+        <div class="row wrapper">
+          <div class="col-2 d-flex align-items-center">
+            <img src="./assets/images/logo.png" alt="logo" />
+          </div>
+          <div class="col-2 d-flex align-items-center justify-content-between">
+            <ul class="list-unstyled gap-5">
+              <li class="d-flex align-items-center justify-content-between">Популярное</li>
+              <li><a href="#">Программирование</a></li>
+              <li><a href="#">Книги для детей</a></li>
+              <li><a href="#">Психология</a></li>
+              <li><a href="#">Бизнес</a></li>
+            </ul>
+          </div>
+          <div class="col-2 d-flex justify-content-between">
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center justify-content-between">Информация</li>
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Оплата</a></li>
+              <li><a href="#">O магазине</a></li>
+            </ul>
+          </div>
+          <div class="col-2 d-flex justify-content-between">
+            <ul class="list-unstyled">
+              <li class="d-flex align-items-center justify-content-between">Помощь</li>
+              <li><a href="#">Контакты</a></li>
+              <li><a href="#">Возврат товара</a></li>
+              <li><a href="#">Помощь покупателю</a></li>
+            </ul>
+          </div>
+          <div class="col-2 d-flex align-items-center justify-content-between">
+            <ul class="list-unstyled">
+              <li><a href="#">+38 (071) 339-16-26</a></li>
+              <li><button>Заказать звонок</button></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
